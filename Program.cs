@@ -32,7 +32,7 @@ namespace Contagem_Regressiva
             Console.WriteLine("--------");
            
             Console.ReadKey();
-            Console.ForegroundColor= ConsoleColor.White;
+            Console.ResetColor();
         }
     }
 }
